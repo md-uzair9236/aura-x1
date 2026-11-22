@@ -967,3 +967,37 @@ body:has(#theme-toggle:checked) .theme-label::after {
   font-size: 0.92rem;
   margin-bottom: 26px;
 }
+html,
+body {
+  overflow-x: clip;
+  max-width: 100%;
+}
+
+.newsletter-form {
+  width: 100%;
+  max-width: 100%;
+}
+
+.newsletter-form input {
+  min-width: 0;
+  width: 100%;
+}
+
+.hero-stats {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 550px) {
+  .container {
+    padding: 56px 18px;
+  }
+
+  .hero-img::before {
+    width: 240px;
+    height: 240px;
+  }
+
+  .hero-stats {
+    gap: 20px;
+  }
+}
