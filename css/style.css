@@ -1,4 +1,4 @@
-/* ===== GOOGLE FONT & RESET ===== */
+/*  GOOGLE FONT & RESET */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
 
 :root {
@@ -33,7 +33,7 @@ body {
     radial-gradient(circle at 85% 75%, rgba(139, 92, 246, 0.12), transparent 35%);
 }
 
-/* ===== NAVBAR (GLASSMORPHISM) ===== */
+/*  NAVBAR (GLASSMORPHISM)  */
 header {
   position: sticky;
   top: 0;
@@ -87,7 +87,7 @@ nav {
   color: var(--primary);
 }
 
-/* ===== BUTTONS ===== */
+/*  BUTTONS */
 .btn {
   display: inline-block;
   padding: 12px 28px;
@@ -123,7 +123,7 @@ nav {
   transform: translateY(-3px);
 }
 
-/* ===== CONTAINER & HEADINGS ===== */
+/*  CONTAINER & HEADINGS  */
 .container {
   max-width: 1180px;
   margin: auto;
@@ -154,7 +154,7 @@ nav {
   color: transparent;
 }
 
-/* ===== HERO SECTION ===== */
+/*  HERO SECTION  */
 .hero {
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
@@ -255,7 +255,7 @@ nav {
   }
 }
 
-/* ===== FEATURES & REVIEWS GRID ===== */
+/* FEATURES & REVIEWS GRID  */
 .grid-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -306,7 +306,7 @@ nav {
   font-size: 0.9rem;
 }
 
-/* ===== SPECS & PRICING TABLE (specs.html) ===== */
+/*  SPECS & PRICING TABLE */
 .table-wrapper {
   overflow-x: auto;
   border-radius: 20px;
@@ -378,7 +378,7 @@ tr:hover td {
   border-radius: 50px;
 }
 
-/* ===== ORDER FORM & FAQ (order.html) ===== */
+/*  ORDER FORM & FAQ*/
 .order-grid {
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
@@ -422,7 +422,7 @@ tr:hover td {
   border-color: var(--primary);
 }
 
-/* Pure CSS FAQ Accordion */
+/*  FAQ Accordion */
 details {
   background: var(--bg-card);
   border: 1px solid var(--border-glass);
@@ -457,7 +457,7 @@ details p {
   font-size: 0.9rem;
 }
 
-/* ===== FOOTER ===== */
+/*  FOOTER  */
 footer {
   border-top: 1px solid var(--border-glass);
   padding: 36px 24px;
@@ -466,7 +466,7 @@ footer {
   font-size: 0.9rem;
 }
 
-/* ===== RESPONSIVE DESIGN ===== */
+/* RESPONSIVE DESIGN  */
 @media (max-width: 850px) {
 
   .hero,
@@ -493,9 +493,9 @@ footer {
   }
 }
 
-/* =========================================
-   UPGRADE 1: PURE CSS LIGHT / DARK THEME
-   ========================================= */
+/* 
+    LIGHT / DARK THEME
+    */
 .theme-checkbox {
   display: none;
 }
@@ -520,7 +520,7 @@ footer {
   border-color: var(--primary);
 }
 
-/* Light Mode Variables jab toggle ON ho */
+/* Light Mode Variables */
 body:has(#theme-toggle:checked) {
   --bg-dark: #f8fafc;
   --bg-card: rgba(255, 255, 255, 0.85);
@@ -551,9 +551,9 @@ body:has(#theme-toggle:checked) .theme-label::after {
   content: 'Light';
 }
 
-/* =========================================
-   UPGRADE 2: BRAND TRUST BAR
-   ========================================= */
+/*
+    BRAND TRUST BAR
+    */
 .trust-bar {
   border-top: 1px solid var(--border-glass);
   border-bottom: 1px solid var(--border-glass);
@@ -585,9 +585,8 @@ body:has(#theme-toggle:checked) .theme-label::after {
   color: var(--primary);
 }
 
-/* =========================================
-   UPGRADE 3: PURE CSS COLOR PREVIEW STUDIO
-   ========================================= */
+/*  COLOR PREVIEW STUDIO
+    */
 .color-studio {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -698,9 +697,9 @@ body:has(#theme-toggle:checked) .theme-label::after {
   }
 }
 
-/* =========================================
-   UPGRADE 4: WHAT'S IN THE BOX & OFFICIAL FOOTER
-   ========================================= */
+/* 
+  WHAT'S IN THE BOX & OFFICIAL FOOTER
+   */
 .grid-4 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -847,9 +846,9 @@ body:has(#theme-toggle:checked) .theme-label::after {
   }
 }
 
-/* =========================================
+/* 
    ANNOUNCEMENT BAR, MOBILE MENU & ORDER MODAL
-   ========================================= */
+   */
 
 /* 1. Top Announcement Strip */
 .announcement-bar {
@@ -862,7 +861,7 @@ body:has(#theme-toggle:checked) .theme-label::after {
   letter-spacing: 0.5px;
 }
 
-/* 2. Pure CSS Mobile Hamburger Menu */
+/* 2.  Mobile Hamburger Menu */
 .menu-checkbox {
   display: none;
 }
@@ -901,7 +900,7 @@ body:has(#theme-toggle:checked) .theme-label::after {
   }
 }
 
-/* 3. Pure CSS Order Success Modal (:target) */
+/* 3. Order Success Modal (:target) */
 .modal-overlay {
   position: fixed;
   inset: 0;
