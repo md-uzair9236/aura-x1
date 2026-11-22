@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-Order | AURA X1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Top Announcement Strip -->
+    <div class="announcement-bar">
+        Launch Offer: Free Express Delivery &amp; 2-Year Warranty Across India
+    </div>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">AURA <span>X1</span></a>
+            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+            <label for="menu-toggle" class="hamburger" aria-label="Toggle menu">&#9776;</label>
+            <ul class="nav-links">
+                <li>
+                    <input type="checkbox" id="theme-toggle" class="theme-checkbox">
+                    <label for="theme-toggle" class="theme-label">☀️</label>
+                </li>
+                <li><a href="index.html">Overview</a></li>
+                <li><a href="specs.html">Specs & Pricing</a></li>
+                <li><a href="order.html" class="btn btn-primary">Pre-Order</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="section-title">
+            <h2>Reserve Your <span class="gradient-text">AURA X1</span></h2>
+            <p>Complimentary express shipping across India with a 7-day hassle-free replacement guarantee.</p>
+        </div>
+
+        <div class="order-grid">
+            <!-- Pre-Order Form -->
+            <div class="card">
+                <h3 style="margin-bottom: 20px;">Shipping & Model Details</h3>
+                <form action="#order-success" method="get">
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="e.g. Rahul Verma" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="rahul@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="model">Select Variant</label>
+                        <select id="model" name="model">
+                            <option value="lite">AURA Lite — ₹7,999</option>
+                            <option value="x1" selected>AURA X1 — ₹12,999 (Recommended)</option>
+                            <option value="studio">AURA X1 Studio — ₹18,499</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="color">Finish Color</label>
+                        <select id="color" name="color">
+                            <option value="midnight">Midnight Matte Black</option>
+                            <option value="silver">Arctic Titanium Silver</option>
+                            <option value="cobalt">Deep Cobalt Blue</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">Delivery Address</label>
+                        <textarea id="address" name="address" rows="3" placeholder="House No., Street, City, Pincode"
+                            required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Confirm Pre-Order</button>
+                </form>
+            </div>
+
+
+            <!-- Pure HTML Interactive FAQ -->
+            <div>
+                <h3 style="margin-bottom: 20px;">Frequently Asked Questions</h3>
+
+                <details open>
+                    <summary>What is included inside the box?</summary>
+                    <p>You get the AURA X1 Headphones, a hard-shell travel case, a braided USB-C charging cable, a 3.5mm
+                        AUX cable, and a 2-year warranty card.</p>
+                </details>
+
+                <details>
+                    <summary>Can I connect to my laptop and phone simultaneously?</summary>
+                    <p>Yes. Bluetooth 5.4 Dual-Device multipoint pairing lets you switch seamlessly between your laptop
+                        and smartphone without reconnecting.</p>
+                </details>
+
+                <details>
+                    <summary>How does warranty support work in India?</summary>
+                    <p>We offer doorstep pickup and authorized service center support across 40+ major Indian cities for
+                        2 full years.</p>
+                </details>
+
+                <details>
+                    <summary>Is Cash on Delivery (COD) available?</summary>
+                    <p>Yes, we support UPI, Credit/Debit Cards, Net Banking, and Cash on Delivery at checkout.</p>
+                </details>
+            </div>
+        </div>
+    </main>
+
+    <!-- Official Business Footer -->
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <a href="index.html" class="logo">AURA <span>X1</span></a>
+                <p>Precision-engineered personal audio crafted for creators, travelers, and audiophiles across India.
+                </p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Product</h4>
+                <ul>
+                    <li><a href="index.html">Overview</a></li>
+                    <li><a href="specs.html">Tech Specs</a></li>
+                    <li><a href="order.html">Pre-Order</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="order.html">Warranty Policy</a></li>
+                    <li><a href="order.html">Shipping & Returns</a></li>
+                    <li><a href="order.html">FAQs</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Stay Updated</h4>
+                <p>Get early access to limited finishes and firmware drops.</p>
+                <form class="newsletter-form" action="#">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Join</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <span>&copy; 2026 AURA Audio India Pvt. Ltd. All rights reserved.</span>
+            <span>Built with Pure HTML5 &amp; CSS3</span>
+        </div>
+    </footer>
+    <!-- Pure CSS Order Success Model -->
+    <div id="order-success" class="modal-overlay">
+        <div class="modal-box">
+            <div class="modal-icon">&#10003;</div>
+            <h3>Order Reserved!</h3>
+            <p>Thank you for pre-ordering the AURA X1. A confirmation email with your tracking details will arrive
+                shortly.</p>
+            <a href="#" class="btn btn-primary">Done</a>
+        </div>
+    </div>
+</body>
+
+</html>
